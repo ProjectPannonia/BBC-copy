@@ -167,7 +167,9 @@
             }
             
             #local-news a:hover {
+                
                 text-decoration: underline;
+                
             }
             
             #pointer {
@@ -205,6 +207,86 @@
                 float: left;
                 
             }
+            
+            #more-button:hover {
+                
+                background-color: black;
+                
+            }
+            
+            #more-downarrow {
+                
+                margin-left: 5px;
+                margin-right: 5px;
+                
+            }
+            
+            #page-container {
+                
+                width:1020px;
+                margin: 0px auto;
+                
+            }
+            
+            h2 {
+                
+                font-weight: normal;
+                margin-top: 40px;
+                font-size: 20px;
+                border-bottom: 2px solid #BB1919;
+                width: 105px;
+            }
+            
+            h3 a {
+                
+                color:black;
+                font-size: 30px;
+                text-decoration: none;
+                
+            }
+            
+            h3 a:hover {
+                
+                color: #1167A8;
+                
+            }
+            
+            #article-summary {
+                
+                color: #5A5A64;
+                width: 250px;
+                
+            }
+            
+            #article-summary img {
+                
+                height: 15px;
+                position: relative;
+                top:2px;
+                
+            }
+            
+            #article-summary a {
+                
+               text-decoration: none;
+                color: #a91717;
+                border-left: 1px solid #CCCCCC;
+                
+            }
+            
+            #article-summary a:hover {
+                
+                color: #1167a8;
+                
+            }
+            
+            #date {
+                
+                padding-right: 10px;
+                
+            }
+            
+        
         </style>
     </head>
     
@@ -314,9 +396,30 @@
             <a href="" class="mainmenu-button main-button">Education</a>
             <a href="" class="mainmenu-button main-button">Entertainment & Arts</a>
             <a href="" class="mainmenu-button main-button">Video & Audio</a>
-            <a href="" class="mainmenu-button main-button">More</a>
+            <a href="" id="more-button" class="mainmenu-button main-button">More<img id="more-downarrow" src="images/downarrow.png"></a>
         
         </div>
-    
+        
+        <div class="clear"></div>
+        
+        <div id="page-container">
+        
+            <div id="main-article">
+            
+                <h2>Technology</h2>
+                
+                <h3><a href="">Asda bug exposed payment details</a></h3>
+            
+                <div id="article-summary">
+                
+                    <p>Security vulnerabilities that put customers at risk have affected Asda's website for a couple of years, a security expert has revealed.
+                    </p>
+                    <p><img src="images/clock.png"> <span id="date">19 January 2016 </span>  <a href="">Technology</a></p>
+                </div>
+                
+            </div>
+            
+            
+        </div>
     </body>
 </html>
